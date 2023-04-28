@@ -1,4 +1,8 @@
-Teknik komputer adalah disiplin ilmu yang berkaitan dengan desain, pengembangan, dan penggunaan sistem komputer. Di dalamnya terdapat banyak bidang studi yang berbeda, namun di bawah ini adalah beberapa topik umum yang dipelajari di teknik komputer:
+
+Jurusan Teknik Komputer merupakan bidang studi yang mempelajari Ilmu Rekayasa Komputasi, lalu dipadukan dengan Ilmu Komputer dan Ilmu Teknik Elektro. Nantinya, mahasiswa Teknik Komputer akan memiliki keterampilan desain dan rekayasa sistem perangkat keras digital, termasuk jaringan komputer, sistem embedded, mikrokomputer, serta perangkat lain yang berbasis pada komputer. Serta, mempelajari perkembangan perangkat lunak dan perangkat keras dan lainnya.
+
+
+Di dalamnya terdapat banyak bidang studi yang berbeda, namun di bawah ini adalah beberapa topik umum yang dipelajari di teknik komputer:
 
 1. Pemrograman: Bahasa pemrograman dan algoritma adalah dasar dari pengembangan perangkat lunak dan sistem komputer.
 
