@@ -89,3 +89,70 @@ mobil1.info() # Mobil Toyota tahun 2020 berwarna merah
 
 
 class H
+
+
+
+OOP (Object-Oriented Programming) adalah paradigma pemrograman yang menggunakan objek sebagai pusat dari program. Terdapat empat komponen OOP, yaitu:
+
+1. Encapsulation (Pengkapsulan)
+Encapsulation adalah teknik untuk menyembunyikan data dari pengguna dan mencegah akses langsung ke data tersebut dari luar. Objek dapat mengatur akses ke data atau metode mereka dengan menggunakan tingkatan akses, seperti public, private, dan protected. Contohnya, dalam sebuah kelas "Mobil", atribut "warna" bisa di-set sebagai private dan hanya dapat diakses dengan menggunakan method "setWarna" dan "getWarna".
+
+Contoh kode dalam Python:
+
+```
+class Mobil:
+    def __init__(self):
+        self.__warna = ''
+
+    def setWarna(self, warna):
+        self.__warna = warna
+
+    def getWarna(self):
+        return self.__warna
+```
+
+2. Inheritance (Pewarisan)
+Inheritance adalah kemampuan untuk membuat kelas baru dengan mewarisi sifat-sifat dan perilaku dari kelas yang sudah ada sebelumnya. Kelas yang baru ini disebut sebagai kelas turunan atau subclass, sedangkan kelas yang diwarisi sifat-sifatnya disebut sebagai kelas induk atau superclass. Contohnya, dalam kelas "Mobil", dapat dibuat kelas turunan seperti "Sedan" atau "SUV" yang mewarisi sifat-sifat dari kelas "Mobil".
+
+Contoh kode dalam Python:
+
+```
+class Sedan(Mobil):
+    def __init__(self):
+        super().__init__()
+        self.__jenis = 'Sedan'
+
+    def getJenis(self):
+        return self.__jenis
+```
+
+3. Polymorphism (Polimorfisme)
+Polymorphism adalah kemampuan objek untuk memiliki banyak bentuk. Dalam OOP, ini berarti bahwa objek dari kelas yang sama dapat berperilaku berbeda tergantung pada konteks di mana mereka digunakan. Contohnya, dalam kelas "Mobil", dapat didefinisikan metode "kemudi" yang berbeda untuk mobil-mobil berbeda, seperti mobil sport dan mobil keluarga.
+
+Contoh kode dalam Python:
+
+```
+class Mobil:
+    def kemudi(self):
+        print("Kendaraan ini bisa dikemudikan")
+
+class MobilSport(Mobil):
+    def kemudi(self):
+        print("Kendaraan sport memerlukan kemampuan khusus untuk dikemudikan")
+
+class MobilKeluarga(Mobil):
+    def kemudi(self):
+        print("Kendaraan keluarga mudah dikemudikan dan nyaman")
+```
+
+4. Abstraction (Abstraksi)
+Abstraction adalah kemampuan untuk menyembunyikan detail implementasi dari pengguna dan hanya menampilkan fitur-fitur yang relevan dengan pengguna. Dalam OOP, ini berarti bahwa pengguna hanya perlu mengetahui cara menggunakan objek tanpa harus tahu bagaimana objek tersebut dibuat atau diimplementasikan. Contohnya, dalam kelas "Mobil", hanya metode "kemudi" dan "isiBensin" yang perlu ditampilkan kepada pengguna, tanpa harus mengetahui detail implementasi dari mobil.
+
+Contoh kode dalam Python:
+
+```
+class Mobil:
+    def __init__(self):
+        pass
+
+    def kemudi(self
